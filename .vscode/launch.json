@@ -5,11 +5,21 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "java",
+			"name": "main1",
+			"request": "launch",
+			"mainClass": "main1",
+			"projectName": "JuniorTraining_904ac9"
+		},
+		{
 			"name": "(lldb) Launch",
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${fileDirname}/a.out",
-			"args": ["<", "${fileDirname}/input.txt"],
+			"args": [
+				"<",
+				"${fileDirname}/input.txt"
+			],
 			"stopAtEntry": false,
 			"cwd": "${workspaceRoot}",
 			"preLaunchTask": "build"
