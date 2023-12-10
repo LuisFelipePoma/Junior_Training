@@ -5,11 +5,10 @@ using namespace std;
 
 void solve()
 {
-	int n, m, c;
-	while (cin >> n >> m >> c && n != 0)
-	{
-		cout << ((n - 7) * (m - 7) + c) / 2 << "\n";
-	}
+	int n;
+	cin >> n;
+	n = (((n * 567 / 9) + 7492) * 235 / 47) - 498;
+	cout << abs((n / 10) % 10) << endl;
 }
 
 int main()
@@ -17,7 +16,7 @@ int main()
 	ios_base::sync_with_stdio(false);
 	cin.tie(nullptr);
 	int t = 1;
-	// cin>>t;
+	cin >> t;
 	while (t--)
 		solve();
 	return 0;

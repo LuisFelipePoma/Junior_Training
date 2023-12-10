@@ -5,10 +5,10 @@ using namespace std;
 
 void solve()
 {
-	int n, m, c;
-	while (cin >> n >> m >> c && n != 0)
+	ll n1, n2;
+	while (scanf("%lld %lld", &n1, &n2) == 2)
 	{
-		cout << ((n - 7) * (m - 7) + c) / 2 << "\n";
+		cout << abs(n1 - n2) << endl;
 	}
 }
 

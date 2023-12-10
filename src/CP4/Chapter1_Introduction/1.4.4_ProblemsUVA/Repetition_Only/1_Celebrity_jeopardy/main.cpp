@@ -1,14 +1,15 @@
 #include <bits/stdc++.h>
+#include <cstdio>
 typedef long long ll;
 
 using namespace std;
 
 void solve()
 {
-	int n, m, c;
-	while (cin >> n >> m >> c && n != 0)
+	char s;
+	while ((s = getchar()) != EOF)
 	{
-		cout << ((n - 7) * (m - 7) + c) / 2 << "\n";
+		putchar(s);
 	}
 }
 

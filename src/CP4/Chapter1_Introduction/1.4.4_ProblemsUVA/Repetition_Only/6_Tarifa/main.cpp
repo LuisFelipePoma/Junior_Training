@@ -5,11 +5,16 @@ using namespace std;
 
 void solve()
 {
-	int n, m, c;
-	while (cin >> n >> m >> c && n != 0)
+	int x, n;
+	cin >> x >> n;
+	ll ans = 0;
+	while (n--)
 	{
-		cout << ((n - 7) * (m - 7) + c) / 2 << "\n";
+		int p;
+		cin >> p;
+		ans += x - p;
 	}
+	cout << ans + x << endl;
 }
 
 int main()

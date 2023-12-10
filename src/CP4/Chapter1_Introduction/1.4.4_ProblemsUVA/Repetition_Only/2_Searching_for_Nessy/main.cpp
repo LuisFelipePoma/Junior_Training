@@ -5,11 +5,9 @@ using namespace std;
 
 void solve()
 {
-	int n, m, c;
-	while (cin >> n >> m >> c && n != 0)
-	{
-		cout << ((n - 7) * (m - 7) + c) / 2 << "\n";
-	}
+	int n, m;
+	cin >> n >> m;
+	cout << (n / 3) * (m / 3) << "\n";
 }
 
 int main()
@@ -17,7 +15,7 @@ int main()
 	ios_base::sync_with_stdio(false);
 	cin.tie(nullptr);
 	int t = 1;
-	// cin>>t;
+	cin >> t;
 	while (t--)
 		solve();
 	return 0;
