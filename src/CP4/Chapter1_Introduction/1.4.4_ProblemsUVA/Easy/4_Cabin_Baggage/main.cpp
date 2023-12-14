@@ -7,7 +7,7 @@ void solve()
 {
 	double h, w, d, weight;
 	cin >> h >> w >> d >> weight;
-	if (h + w + d <= 125 && weight <= 7.000000)
+	if (((h <= 56 && w <= 45 && d <= 25) || h + w + d <= 125) && weight <= 7.000000)
 	{
 		allowed++;
 		cout << 1 << endl;
